@@ -1088,6 +1088,25 @@ background: -webkit-linear-gradient(#FFA800, #FF6939);
 	padding-top: 0%;
 }
 
+.secfoot-container{
+	margin-top: 25%;
+}
+
+.quick-head{
+	margin-left: -5%;
+}
+
+.link-content{
+	margin-left: -6%;
+}
+
+.link-content span 
+{
+	padding-right: 5%;
+	margin-left: -4%;
+	font-size: 16px;
+}
+
 .footer-icon {
 	/*margin-right: 3%;
 	padding: 5px;	
@@ -1102,6 +1121,11 @@ background: -webkit-linear-gradient(#FFA800, #FF6939);
   margin-left: auto;
   margin-right: auto;
 }
+
+.foot-row{
+	padding: 0px;
+}
+
 .copyright-text, .privacy{
 text-align: center;
 float: none;
