@@ -37,8 +37,7 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 <header>
-	<nav id="myTopnav" class="navbar navbar-inverse navbar-fixed-top" > 
-		<!--style="margin-top: 3%;" navbar-fixed-top -->		
+	<nav id="myTopnav" class="navbar navbar-inverse navbar-fixed-top" > 		
 	  <div class="container-fluid">
 	    <div class="navbar-header">
 	      <a class="navimg" href="#"><img src="images/mars2.png"></a>
@@ -50,10 +49,10 @@
 	    </div>
 	  </div>
 	</nav>
-	</header>
+</header>
 
 
-	<div id="mySidenav" class="sidenav">
+<div id="mySidenav" class="sidenav">
   <div class="sidediv active"><p class="text-center sidenavp"><img src="images/home.png"></p>
   <a class="text-center" href="#home">HOME</a></div>
   <div class="sidediv"><p class="text-center sidenavp"><img src="images/land.png"></p>
@@ -67,33 +66,32 @@
 </div>
 
     <section class="sec-1" id="home">
-	<!-- <div class="container"> -->
 		<div class="welcomepg">
 		  <div class="row sec1-row">
-		  
+		  <div class="col-lg-6 col-md-6 col-sm-12" id="hidewelimg">
+		  		<img src="images/Mars_8K_mv.png" id="welimg">
+		  	</div>		  
 			<div class="col-lg-6 col-md-6 col-sm-12 text-sec1">
 			<h3 class="wel-head">Welcome to Mars 2.0</h3>
 			<p class="wel-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa.</p>
 			
-			   <div class="row">			
+			   <!-- <div class="row">			 -->
 					<div class="wel-btn col-lg-4 col-md-4 col-sm-12">	
 						<button class="btn btn-lg register">
 							<a target="_blank" href="" class="linktext">Register</a></button>
 					</div>
-			  </div>
+			  <!-- </div> -->
 			</div>
 			<div class="col-lg-6 col-md-6 col-sm-12" id="welcol">
 		  		<img src="images/Mars_8K.png" id="welimg">
 		  	</div>
 		   </div>
-	       </div>
-		<!-- </div>  -->
-	</div>
+	       </div>	
 	</section>
 
 	<section class="sec-2" id="feature">	
-		<div class="row">
-		<div class="col-lg-12">
+		<div class="row sec2-row">
+		<div class="col-lg-12 col-md-12 col-sm-12">
 			<h3 class="sec2-head">Featured By</h3>
 		</div>
 		</div>
@@ -110,7 +108,7 @@
 			<div class="img-sec2 col-lg-2 col-md-3 col-sm-6 col-xs-6">
 				<a href=""><img class="bz" src="images/f4.png"></a>
 			</div>
-			<div class="img-sec2 col-lg-3 col-md-3 col-sm-6 col-xs-6">
+			<div class="img-sec2 col-lg-3 col-md-3 col-sm-12 col-xs-12">
 				<a href=""><img class="fox" src="images/f5.png"></a>
 			</div>
 		  </div>	
@@ -120,12 +118,12 @@
 
 	<section class="sec-3">
 		<div class="row sec3-row">
-		<div class="col-lg-12">
+		<div class="col-lg-12 col-md-12 col-sm-12">
 			<h4 class="sec3-head">Lifestyle on mars</h4>
 		</div>
 		</div>
 		<div class="container sec3-container">
-		<div class="row">
+		<div class="row sec3-content-row">
 		<div class="col-lg-7 col-md-7 col-sm-12 sec3-content">
 			<div class="text-sec3">
 				<h3 class="sec3-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa. exercitation ullamco.</h3>					</div>
@@ -138,12 +136,15 @@
 </section>
 
 <section class="sec-4" id="landrelease">
-		<div class="row">
-		<div class="col-lg-12 sec4-headcol">
+		<div class="row sec4-head-row">
+		<div class="col-lg-12 col-md-12 col-sm-12 sec4-headcol">
 			<h4 class="sec4-head">Create on your own land</h4>
 		</div>
 		</div>
 		<div class="row sec4-row">
+			<div class="col-lg-6 col-md-6 col-sm-12 sec4-imgsec1">
+		  		<img src="images/Township.png" id="sec4img">
+		 </div>
 		<div class="col-lg-6 col-md-6 col-sm-12 sec4-content">
 			<div class="text-sec4">
 				<h3 class="sec4-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa. exercitation ullamco.</h3>					</div>
@@ -159,14 +160,18 @@
 
 <section class="sec-5" id="p2esec">
 		<div class="row sec5-row">
-		<div class="col-lg-12">
+		<div class="col-lg-12 col-md-12 col-sm-12">
 			<h4 class="sec5-head">Play To earn</h4>
 		</div>
 		</div>
-		<div class="row">
+		<div class="row sec5-row-content">
+			<div class="col-lg-6 col-md-6 col-sm-12 sec5-imgsec1">
+		  		<img src="images/Casino_mv.png" id="sec5img">
+		 </div>
 		<div class="col-lg-6 col-md-6 col-sm-12 sec5-content">
 			<div class="text-sec5">
-				<h3 class="sec5-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa. exercitation ullamco.</h3>					</div>
+				<h3 class="sec5-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa. exercitation ullamco.</h3>					
+			</div>
 			<div class="row sec5-div">
 			<button class="btn btn-lg buy"><a target="_blank" href="" class="linktext">Explore More</a></button>
 	        </div>
@@ -176,11 +181,14 @@
 
 <section class="sec-6" id="nftsec">
 		<div class="row sec6-row">
-		<div class="col-lg-12">
+		<div class="col-lg-12 col-md-12 col-sm-12">
 			<h4 class="sec6-head">NFTs</h4>
 		</div>
 		</div>
-		<div class="row">
+		<div class="row sec6-row-content">
+		<div class="col-lg-6 col-md-6 col-sm-12 sec6-imgsec1">
+		  		<img src="images/sec6_mv.png" id="sec6img">
+		 </div>
 		<div class="col-lg-6 col-md-6 col-sm-12 sec6-content">
 			<div class="text-sec6">
 				<h3 class="sec6-para">Non-Fungible Tokens (NFTs) are virtual tokens minted on the blockchain for digital scarcity, security, and authenticity. They are unique, indivisible, and non-interchangeable — allowing true digital ownership of in-game assets.</h3>					</div>
@@ -194,7 +202,7 @@
 
 <section class="sec-7" id="token">
 		<div class="row sec7-row">
-		<div class="col-lg-12">
+		<div class="col-lg-12 col-md-12 col-sm-12">
 			<h4 class="sec7-head mt-5">Tokenomics</h4>
 		</div>
 		</div>
@@ -227,8 +235,8 @@
 </section>
 
 	<footer class="footer">
-		<div class="custom-container">
-		  <div class="row pb-2">
+		<div class="custom-container footer-continer">
+		  <div class="row row1-footer pb-2">
 			<div class="col-lg-8 col-md-12 col-sm-12 foot-content">
 				<h3 class="foot-head">Join Our Community</h3>
 				<div class="text-secfoot">
