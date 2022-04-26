@@ -1022,9 +1022,15 @@ background: -webkit-linear-gradient(#FFA800, #FF6939);
 	padding-left: 3%;
 }
 
-#sec4img, #sec4img2{
+#sec4img{
 	width: 100%;
+	height: auto;
 }
+
+#sec4img2{
+	width: 100%;
+	height: 157px;
+	}
 
 
 
