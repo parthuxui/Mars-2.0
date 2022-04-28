@@ -112,6 +112,20 @@ letter-spacing: 0.04em;
     /*text-decoration-color: #FFFFFF;*/
 	text-underline-position: under;
 }
+
+/*.navbar-nav>.active>a {
+	color: #FFFFFF;
+    background-color: transparent !important;
+}
+
+.nav-item>a:hover,
+.nav-item>a:focus
+{
+	color: #FFFFFF;
+    background-color: transparent !important;
+ }*/
+
+
 .navbar-inverse .navbar-nav>.active>a,
 .navbar-inverse .navbar-nav>.active>a:focus,
 .navbar-inverse .navbar-nav>.active>a:hover 
@@ -710,6 +724,7 @@ line-height: 24px;
 /*Media Query*/
 @media only screen and (max-width: 600px)
 {
+@import url('http://fonts.cdnfonts.com/css/elianto');
 
 body{
 	max-width: 100%;
