@@ -479,7 +479,7 @@ line-height: 37px;
 
 .sec-5
 {
-	background-image:url('../images/sec5bg.jpg');
+	background-image:url('../images/sec5bg.png');
  	background-size: cover;
  	background-repeat: no-repeat;
  	padding-bottom: 10%;
@@ -502,7 +502,7 @@ color: white;
 letter-spacing: 0.05em;
 }
 
-.text-sec5, .text-sec1, .text-secfoot, .foot-head, .quick-content1, .quick-content2 {
+.sec3-para, .text-sec5, .text-sec1, .text-secfoot, .foot-head, .quick-content1, .quick-content2 {
 color: white;
 }
 
@@ -514,7 +514,7 @@ color: white;
  {
  	padding-bottom: 9%;
  	padding-left: 8%;
- 	background-image:url('../images/sec6bg.jpg');
+ 	background-image:url('../images/sec6bg.png');
  	background-size: cover;
  	background-repeat: no-repeat;
  }
@@ -833,6 +833,7 @@ background: -webkit-linear-gradient(#FFA800, #FF6939);
 
 .sec-3{
 	padding-left: 2%;
+	background-image: url(../images/lifestyle_mv.png);
 }
 
 .sec3-container {
@@ -979,6 +980,7 @@ background: -webkit-linear-gradient(#FFA800, #FF6939);
 
 .sec3-para{
 	font-size: 18px;
+	color: white;
 }
 
 	.gra-text {
