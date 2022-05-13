@@ -311,7 +311,23 @@ padding-top: 8%;
 	padding-left: 8%;
 }
 
-.sec2-head, .sec3-head, .sec4-head, .sec6-head
+.sec3-head{
+	margin-left: 5%;
+ font-family: 'Elianto';
+font-style: normal;
+font-weight: 400;
+font-size: 43px;
+line-height: 45px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+text-transform: capitalize;
+color: white;
+
+
+}
+
+.sec2-head, .sec4-head, .sec6-head
 {
 	margin-left: 5%;
  font-family: 'Elianto';
@@ -392,7 +408,7 @@ background: -webkit-linear-gradient(#FFA800, #FF6939);
 
  .sec3-div{
  	padding-bottom: 2%;
- 	padding-top: 15%;
+ 	padding-top: 10%;
  }
 
  .sec3-div button {
@@ -402,7 +418,7 @@ background: -webkit-linear-gradient(#FFA800, #FF6939);
  .sec3-content {
  	border-radius: 10px;
  	border: 2px solid orange;
- 	background: rgba(255, 255, 255, 0.4);
+ 	background: rgba(0, 0, 0, 0.4);
  }
 
  .buy{
@@ -812,7 +828,7 @@ line-height: 28px;
 	display: none;
 }
 
-.sec2-head, .sec3-head, .sec4-head, .sec6-head
+.sec2-head, .sec4-head, .sec6-head
 {
 	font-family: 'Elianto';
 font-style: normal;
@@ -828,6 +844,21 @@ text-transform: capitalize;
 background: -webkit-linear-gradient(#FFA800, #FF6939);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.sec3-head{
+
+	font-family: 'Elianto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+text-transform: capitalize;
+
+color: white;
 }
 
 .sec-2, .foot-content{
@@ -850,6 +881,11 @@ background: -webkit-linear-gradient(#FFA800, #FF6939);
 
 .sec3-div, .sec4-div, .sec5-div, .sec6-div {
 	margin-left: -2%;
+}
+
+.sec3-div{
+	padding-bottom: 5%;
+	padding-top: 15%;
 }
 
 .sec3-div button {
@@ -1104,6 +1140,11 @@ background: -webkit-linear-gradient(#FFA800, #FF6939);
 
 .sec5-para, .sec6-para, .text-sec7, .secfoot-para{
 	font-size: 18px;
+}
+
+.sec-6{
+	background-color: #FFF3EA;
+
 }
 
 #sec6img {
