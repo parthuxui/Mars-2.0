@@ -1,0 +1,14 @@
+
+
+
+
+@font-face {
+    font-family: 'Elianto';
+    src: url('elianto-regular-webfont.woff2') format('woff2'),
+         url('elianto-regular-webfont.woff') format('woff'),
+ 	url('elianto-regular-webfont.ttf') format('ttf'),
+ 	url('elianto-regular-webfont.otf') format('otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
