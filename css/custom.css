@@ -760,7 +760,7 @@ line-height: 24px;
 /*Media Query*/
 @media only screen and (max-width: 600px)
 {
-@import url('http://fonts.cdnfonts.com/css/elianto');
+@import url('assets/elianto_webfont/stylesheet.css');
 
 body{
 	max-width: 100%;
@@ -1022,6 +1022,10 @@ color: white;
 	.img-sec2 
 {
 	padding: 15px 20px;	
+}
+
+.yahoo {
+	height: 30px;
 }
 
 	.img-sec2 img{
