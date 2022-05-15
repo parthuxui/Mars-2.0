@@ -95,6 +95,10 @@ font-weight: 400;
 letter-spacing: 0.04em;
 }
 
+.registernav{
+	margin-top: 1%;
+}
+
 .registernav a{
 font-family: 'Montserrat';
 font-style: normal;
@@ -198,7 +202,7 @@ line-height: 22px;
 }
 
 .sidenav div {
-	padding-top: 20%;
+	padding-top: 22%;
 }
 
 .sidenav img {
@@ -277,6 +281,10 @@ font-weight: 400;
 font-size: 18px;
 line-height: 27px;
 padding-top: 8%;
+}
+
+.wel-btn{
+	margin-left: -2%;
 }
 
 .wel-btn button {
@@ -569,7 +577,7 @@ margin-top: -3%;
  }
 
  .card-text {
- 	padding: 3%;
+ 	padding: 4%;
  	padding-top: 5%;
  }
 
@@ -828,6 +836,10 @@ line-height: 28px;
 	display: none;
 }
 
+.sec1-row{
+	margin-bottom: 2%;
+}
+
 .sec2-head, .sec4-head, .sec6-head
 {
 	font-family: 'Elianto';
@@ -878,6 +890,7 @@ color: white;
 
 .sec3-container {
 	margin-left: 2%;
+	padding-bottom: 3%;
 }
 
 .sec3-div, .sec4-div, .sec5-div, .sec6-div {
@@ -1128,6 +1141,10 @@ color: white;
 
 .sec5-row, .sec6-row, .sec7-row{
 	padding-left: 0%;
+}
+
+.sec7-row{
+	margin-left: 2.5%;
 }
 
 .sec5-head, .sec7-head, .foot-head, .quick-head, .connect-head{
