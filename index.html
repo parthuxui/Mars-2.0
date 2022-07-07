@@ -10,7 +10,7 @@
 
   <link href="https://fonts.cdnfonts.com/css/kavoon" rel="stylesheet">
     
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -48,6 +48,7 @@
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 <header>
+
 	<nav id="myTopnav" class="navbar navbar-inverse navbar-fixed-top" > 		
 	  <div class="container-fluid">
 	    <div class="navbar-header">
@@ -61,7 +62,7 @@
 	  </div>
 	</nav>
 
-<nav id="myTopnav1" class="navbar navbar-inverse navbar-fixed-top" > 
+<nav id="myTopnav1" class="navbar navbar-inverse navbar-fixed-top"> 
 	  <div class="container-fluid">
 	    <div class="navbar-header">
 	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -98,20 +99,6 @@
   TOKENO-MICS</div></a>
 </div>
 
-<!-- <ul class="navbar-nav sidenav" id="mySidenav" >
-        <li class="nav-item active">
-            <a class="nav-link text-center sidea" href="#">
-                <div class="sidediv active"><p class="text-center sidenavp"><img src="images/home.png"></p>HOME</div>
-            </a>
-        </li>
-        <li class="nav-item active">
-            <a class="nav-link text-center" href="#landrelease"><div class="sidediv"><p class="text-center sidenavp"><img src="images/land.png"></p>LAND RELEASE</div></a>
-        </li>
-        <li class="nav-item active">
-            <a class="nav-link text-center" href="#nftsec"><div class="sidediv"><p class="text-center sidenavp"><img src="images/nft.png"></p>NFT</div></a>
-        </li>
-  </ul> -->
-
 
     <section class="sec-1" id="home">
 		<div class="welcomepg">
@@ -130,14 +117,11 @@
 					</div>
 			  <!-- </div> -->
 			</div>
-			<div class="col-lg-6 col-md-6 col-sm-12" id="welcol">
-		  		<!-- <img src="images/Mars.png" id="welimg"> -->
-
-<img src="images/0002.gif" alt="mars" id="welimg">
-
+			<div class="col-lg-6 col-md-6 col-sm-12" id="welcol">		  		
+            <img src="images/0002.gif" alt="mars" id="welimg">
 		  	</div>
-		   </div>
-	       </div>	
+		  </div>
+	    </div>	
 	</section>
 
 	<section class="sec-2" id="feature">	
@@ -197,7 +181,11 @@
 		  		<img src="images/Township.png" id="sec4img">
 		 </div> -->
 
-<div id="myCarousel" class=" col-lg-6 col-md-6 col-sm-12 carousel slide sec4-imgsec1" data-ride="carousel">
+<div id="myCarousel" class="col-lg-6 col-md-6 col-sm-12 carousel slide sec4-imgsec1" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active" style="color: black;"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+  </ol>
     
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
@@ -212,14 +200,14 @@
     </div>
 
     <!-- Left and right controls -->
-    <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
       <span class="sr-only">Previous</span>
     </a>
     <a class="right carousel-control" href="#myCarousel" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
-    </a> -->
+    </a>
   </div>
 
 		<div class="col-lg-6 col-md-6 col-sm-12 sec4-content">
@@ -235,11 +223,7 @@
 
 <!-- <div class="col-lg-6 col-md-6 col-sm-12"> -->
  <div id="myCarousel" class=" col-lg-6 col-md-6 col-sm-12 carousel slide sec4-imgsec" data-ride="carousel">
-    <!-- Indicators -->
-    <!-- <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-    </ol> -->
+    
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
@@ -252,6 +236,12 @@
       </div>
     
     </div>
+
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active indicator"></li>
+      <li data-target="#myCarousel" data-slide-to="1" class="indicator"></li>
+    </ol>
 
     <!-- Left and right controls -->
     <!-- <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -422,17 +412,6 @@
 	<script>
 	window.onscroll = function() {myFunction()};
 
-	 // $(document).ready(function () {
-  
-  //           $('ul.navbar-nav > li')
-  //                   .click(function (e) {
-  //               $('ul.navbar-nav > li')
-  //                   .removeClass('active');
-  //               $(this).addClass('active');
-  //           });
-  //       });
- 
-
 	var navbar = document.getElementById("myTopnav1");
 	var sticky = navbar.offsetTop;
 
@@ -443,12 +422,6 @@
 	    navbar.classList.remove("sticky");
 	  }
 	}
-
-
-	// function alfun() {
-	// 	document.getElementById("sec-1").style.padding-top = 0%;
-	// 	// alert(1);
-	// }
 
 
 	function btn_clickcopy() {

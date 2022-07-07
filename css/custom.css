@@ -39,7 +39,28 @@ a:hover {
 	  position: initial !important;
 }
 
+.carousel-indicators {
+	position: relative;
+	height: 1px !important;
+	/*background-color: orange;*/
+}
 
+.carousel-indicators li {
+    border-radius: 25px !important;
+    height: 0.3px !important;
+    width: 10%;
+    background-color: #FFF5E3;
+    border-color: #FFF5E3;
+    padding: 3px;
+}
+
+.carousel-indicators .active {
+	height: 0.3px !important;
+    border-radius: 25px !important;
+    width: 10%;
+    background-color: orange;
+    
+}
  
 
 
